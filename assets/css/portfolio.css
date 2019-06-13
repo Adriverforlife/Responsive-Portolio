@@ -10,10 +10,17 @@
 
   }
 
+  @media screen and (max-width:768px) {
+    .item {
+        width: 50%;
+        margin: 0px 0px 20px
+    }
+}
+
   @media screen and (max-width:640px) {
       .item {
           width: 100%;
-          margin: 0px 0px 10px;
+          margin: 0px 0px 20px;
 
       }
   }
