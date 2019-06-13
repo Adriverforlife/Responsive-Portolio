@@ -15,6 +15,12 @@
         width: 50%;
         margin: 0px 0px 20px
     }
+    img {
+        margin: 10px;
+    }
+    p {
+        clear: both;
+    }
 }
 
   @media screen and (max-width:640px) {

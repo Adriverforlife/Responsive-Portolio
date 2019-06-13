@@ -103,7 +103,8 @@ body {
 
   @media screen and (max-width:640px) {
     .header-left{
-      width: 640px;
+      width: 100%;
+      text-align: center;
     }
     .header-right{
       box-sizing: border-box;
