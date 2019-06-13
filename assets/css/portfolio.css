@@ -1,0 +1,19 @@
+.item {
+    width: calc(100%/3);
+    padding: 0px;
+    float: left;
+    overflow: auto;
+
+}
+.scale-down {
+    object-fit: scale-down;    width: 100%;
+
+  }
+
+  @media screen and (max-width:640px) {
+      .item {
+          width: 100%;
+          margin: 0px 0px 10px;
+
+      }
+  }
